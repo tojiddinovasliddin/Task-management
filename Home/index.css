@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --visiting-buttons: #000000;
+    --visiting-buttons2:#3a0b0b;
+    --visiting-text: #ffffff;
+    --background-color:#1e0404;
+    --background-color2:#13070700;
+
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+}
+.buttons{
+    min-height: 100vh;
+    width: 20%;
+    background:linear-gradient(50deg,var(--visiting-buttons),var(--visiting-buttons2));
+    display: block;
+}
+.icon{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 150px;
+    margin-left: 250px;
+
+}
+.name{
+    width: 400px;
+    height: 150px;
+    margin: -100px;
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--visiting-text);
+}
+.email{
+    width: 400px;
+    height: 150px;
+    margin: -100px;
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: var(--visiting-text);
+}
+.add{
+    display: flex;
+
+}
+.add_image{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-right: 20px;
+}
+.add_task{
+    width: 400px;
+    height: 100px;
+    margin: 50px;
+    margin-left: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background: (50deg, var(--visiting-buttons), var(--visiting-buttons2));
+    color: var(--visiting-text);
+    cursor: pointer;
+}
+.setting{
+    display: flex;
+
+
+}
+.setting_img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 50px;
+    margin-right: 20px;
+
+}
+.btn_setting{
+    width: 400px;
+    height: 100px;
+    margin: 50px;
+    margin-left: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background: (50deg, var(--visiting-buttons), var(--visiting-buttons2));
+    color: var(--visiting-text);
+    cursor: pointer;
+}
+
+
+
+.inputs{
+    background: linear-gradient(40deg,var(--background-color),var(--background-color2));
+    min-height: 100vh;
+    min-width: 80%;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    margin: 40px;
+}
+.tasks{
+    display: flex;
+}
+.new_task{
+    height: 4vh;
+    width: 40%;
+    margin: 40px;
+    margin-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.add_new_task{
+    height: 4vh;
+    width: 10%;
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--visiting-text);
+    background-color: #062e4c;
+}
+.add_new_task:hover{
+    background-color: #041420;
+}
+h2{
+    margin: 2%;
+    margin-left: 41%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+
