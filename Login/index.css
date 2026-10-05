@@ -5,11 +5,11 @@
 }
 :root{
     --background: #000000;
-    --background2: #1f1a27;
-    --login_color:#1c1a21;
+    --background2: #5a090d;
+    --login_color:#2b0a0a;
 }
 body {
-    background:linear-gradient(60deg,var(--background),var(--background2))
+    background:linear-gradient(120deg,var(--background),var(--background2))
 }
 .box{
     height: 100vh;
@@ -85,4 +85,8 @@ h2{
 .btn_login:hover{
     background-color: #1c0c14;
 }
-
+a{
+   margin: 300px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 40px;
+}
