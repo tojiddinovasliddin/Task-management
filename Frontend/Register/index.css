@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --background-color:#000000;
+    --background-color2:#590c0c;
+    --background-color3:#160f71;
+}
+body{
+    display: flex;
+}
+.box{
+
+    height: 100vh;
+    background:linear-gradient(100deg,var(--background-color2),var(--background-color3));
+    width: 100%;
+}
+.login{
+    background:linear-gradient(100deg,var(--background-color3),var(--background-color2));
+    height: 60vh;
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin: 25vh;
+    margin-left: 68vh;
+    border-radius: 30px;
+
+
+}
+.icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    color: #ffffff;
+}
+.inputs{
+    display: block;
+}
+.full_name,
+.email,
+.username,
+.password{
+    height: 4vh;
+    width: 80%;
+    margin: 20px;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn_sign,
+.visit_login{
+    height: 5vh;
+    width: 80%;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    background: linear-gradient(100deg, var(--background-color2), var(--background-color3));
+}
+.visit_login {
+    background: linear-gradient(100deg, var(--background-color3), var(--background-color2));
+    color: #00ffff;
+}
+.btn_sign:hover{
+background: linear-gradient(130deg, var(--background-color3), var(--background-color2));
+}
+
+
+
+

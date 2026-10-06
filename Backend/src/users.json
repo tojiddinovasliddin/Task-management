@@ -1,0 +1,21 @@
+[
+    {
+        "id": 2,
+        "full_name": "Asliddin",
+        "email": "tojiddinovasliddin830@gmail.com",
+        "username": "Asliddin",
+        "password": "Umed1234",
+        "task": [],
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOm51bGwsInVzZXJuYW1lIjoiQXNsaWRkaWR3cW4iLCJpYXQiOjE3OTEyMTU3NzIsImV4cCI6MTg1NDMzMDk3Mn0.MDe_EuYcAuYL67W1ltcy4SQ_J7V3HoAjF2ESCYcHaFM"
+    },
+    {
+        "id": 2,
+        "full_name": "Umed Masharipov",
+        "email": "umed_1223@gmail.com",
+        "username": "umed",
+        "password": "Umed1234",
+        "task": [],
+        "time": "10/6/2026, 11:49:08 AM",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOm51bGwsInVzZXJuYW1lIjoidW1lZCIsImlhdCI6MTc5MTI2OTM0OCwiZXhwIjoxODU0Mzg0NTQ4fQ.YccT-Fy8zRCxWfWNm1Nnda_2iBhbVv0fjoauw36vRSA"
+    }
+]

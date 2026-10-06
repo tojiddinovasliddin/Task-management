@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --background-color: #590c0c;
+    --background-color2: #160f71;
+    --visiting-text: #ffffff;
+
+
+}
+
+body {
+    background: linear-gradient(50deg, var(--background-color), var(--background-color2));
+    display: flex;
+}
+
+.buttons {
+    min-height: 100vh;
+    width: 20%;
+    background: linear-gradient(100deg, var(--background-color), var(--background-color2));
+    display: block;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 150px;
+    margin-left: 250px;
+
+}
+
+.name,
+.email {
+    width: 400px;
+    height: 150px;
+    margin: -100px;
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: var(--visiting-text);
+}
+
+.email {
+    font-size: 30px;
+}
+
+.add,
+.setting,
+.active,
+.complated,
+.login {
+    display: flex;
+
+}
+
+.add_image,
+.setting_img,
+.active_img,
+.complated_img,
+.login_img {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-right: 20px;
+
+}
+
+.add_task,
+.btn_setting,
+.btn_active,
+.btn_complated,
+.log_out {
+    width: 400px;
+    height: 100px;
+    margin: 50px;
+    margin-left: -10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background:linear-gradient(50deg, var(--background-color), var(--background-color2));
+    color: var(--visiting-text);
+    cursor: pointer;
+}
+
+
+.change_password {
+    background: linear-gradient(100deg, var(--background-color), var(--background-color2));
+    min-height: 100vh;
+    min-width: 80%;
+}
+.box{
+    background:linear-gradient(270deg,var(--background-color),var(--background-color2));
+    height: 50vh;
+    width: 50%;
+    margin: 20vh;
+    margin-left: 30vh;
+    border-radius: 30px;
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    font-style: oblique;
+    color: #ffffff;
+}
+.change{
+    display: block;
+}
+.username,
+.old_password,
+.new_password,
+.btn_change{
+height: 5vh;
+width: 80%;
+margin: 3%;
+margin-left: 10%;
+border-radius: 25px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+font-style: oblique;
+}
+.btn_change{
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #0e13a6;
+    cursor: pointer;
+}
+.btn_change:hover{
+    background-color: #0a0d74;
+}

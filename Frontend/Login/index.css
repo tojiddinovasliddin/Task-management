@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --background:#160f71;
+    --background2: #590c0c;
+
+
+}
+body {
+    background:linear-gradient(300deg,var(--background),var(--background2))
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(300deg, var(--background), var(--background2))
+
+}
+.container{
+    background:linear-gradient(300deg,var(--background2),var(--background));
+    height: 1400px;
+    width: 1400px;
+    margin: 10%;
+    margin-left: 30%;
+    border-radius: 50%;
+
+}
+.boxa{
+    display: flex;
+
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin: 10%;
+    margin-left: 25%;
+    border-radius: 20%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    margin: 15%;
+    margin-left: -8%;
+    color: #ffffff;
+
+}
+.login{
+    display: block;
+    height: 600px;
+    margin-left: 300px;
+    width: 800px;
+    margin-bottom: 400px;
+
+}
+.text{
+    height: 15%;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+
+}
+.password{
+    height: 15%;
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.btn_login,
+.visit_register {
+    height: 15%;
+    margin-top: 40px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background:linear-gradient(150deg,var(--background),var(--background2));
+    color: #ffffff;
+}
+.visit_register{
+    background: (300deg, var(--background2), var(--background));
+    color: #00ffff;
+}
+.btn_login:hover{
+    background:linear-gradient(350deg, var(--background), var(--background2));
+}
